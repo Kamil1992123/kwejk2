@@ -21,7 +21,6 @@ public class CategoryRepository {
     );
 
     public Category findById(int id) {
-
         for (Category category : ALL_CATEGORIES) {
             if (category.getId() == id) {
                 return category;
